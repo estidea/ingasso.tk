@@ -1,6 +1,21 @@
 var portfolioArray = [
 	{
 		date: "going",
+		category: "UI/UX, prototyping, iOs, app, dashboard",
+		title: "Mobile app for business event networking. Web app for event organizators.",
+		links : [
+			{
+				link: "https://www.figma.com/file/KuxhJM85KZHRKlq3epWvH9A6/StartUp?node-id=0%3A1",
+				linkCaption: "Link to the Figma project"
+			},
+			{
+				link: "https://www.figma.com/proto/KuxhJM85KZHRKlq3epWvH9A6/StartUp?node-id=259%3A6455&viewport=4%2C103%2C0.0892741&scaling=scale-down",
+				linkCaption: "Link to prototype"
+			}
+		]
+	},
+	{
+		date: "going",
 		category: "UI/UX, prototyping, app, BEM, gameDev",
 		title: "Alias for education",
 		links : [
@@ -10,21 +25,6 @@ var portfolioArray = [
 			},
 			{
 				link: "https://www.figma.com/proto/P2YJst17PHAuYIiU7QhMvaKv/Alias-education?node-id=0%3A1&viewport=20%2C462%2C0.20908&scaling=scale-down",
-				linkCaption: "Link to prototype"
-			}
-		]
-	},
-	{
-		date: "going",
-		category: "UI/UX, prototyping, iOs, app",
-		title: "App for business event networking",
-		links : [
-			{
-				link: "https://www.figma.com/file/KuxhJM85KZHRKlq3epWvH9A6/StartUp?node-id=0%3A1",
-				linkCaption: "Link to the Figma project"
-			},
-			{
-				link: "https://www.figma.com/proto/KuxhJM85KZHRKlq3epWvH9A6/StartUp?node-id=259%3A6455&viewport=4%2C103%2C0.0892741&scaling=scale-down",
 				linkCaption: "Link to prototype"
 			}
 		]
