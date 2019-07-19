@@ -96,8 +96,14 @@ $(document).ready(function(){
     	$('#portfolio-inner').append(newItem);
     	
     }
+    var width = $('iframe').width();
+    $('iframe').css("height",width/1.77777);
 });
 
+$( window ).resize(function() {
+	var width = $('iframe').width();
+    $('iframe').css("height",width/1.77777);
+});
 
 
 function carouselPage(e) {
@@ -257,4 +263,5 @@ function togglePortfolio() {
 			
 	}
 	
+
 }
