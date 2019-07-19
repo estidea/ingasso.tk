@@ -67,15 +67,24 @@ $(document).ready(function(){
 
     /* Filling the portfolio */
     for(var i=0;i<portfolioArray.length;i++){
-    	var vasya = 'aaaaaaa';
     	var newItem = `<div class="row row-10 portfolio-item">
 					<div class="col col-1 centered">
 						<div class="p-16 colored portfolio-date">${portfolioArray[i].date}</div>
 					</div>
 					<div class="col col-11 column">
 						<div class="p-16 portfolio-category">${portfolioArray[i].category}</div>
-						<div class="p-32 portfolio-title">${portfolioArray[i].title}</div>
-						<div class="p-16 portfolio-links">`;
+						<div class="p-32 portfolio-title">${portfolioArray[i].title}</div>`;
+						if(portfolioArray[i].images) {
+							for(var j=0;j<portfolioArray[i].images.length;j++){
+							newItem += `<div class="portfolio-image"><img src="/public/img/portfolio/${portfolioArray[i].images[j]}"></div>`;
+							}
+						}
+						if(portfolioArray[i].videos) {
+							for(var j=0;j<portfolioArray[i].videos.length;j++){
+								newItem += `<div class="portfolio-image">${portfolioArray[i].videos[j]}</div>`;
+							}
+						}
+						newItem +=`<div class="p-16 portfolio-links">`;
 						for(var j=0;j<portfolioArray[i].links.length;j++){
 							newItem += `<a href="${portfolioArray[i].links[j].link}" target="_blank" class="portfolio-links-item">
 											${portfolioArray[i].links[j].linkCaption}

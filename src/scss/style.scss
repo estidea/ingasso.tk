@@ -267,6 +267,15 @@ h1 {
     margin-top: -2px;
 }
 
+.portfolio-image{
+    margin-bottom: 20px;
+}
+
+.portfolio-image img{
+	width: auto;
+    max-height: 60vh;
+}
+
 .portfolio-date {
     text-orientation: sideways-right;
     writing-mode: vertical-rl;
