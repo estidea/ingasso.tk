@@ -17,6 +17,32 @@ var portfolioArray = [
 		]
 	},
 	{
+		date: "July ‘19",
+		category: "landing-page, illustration, motion-design",
+		title: "Landing page for sea-drone inspection.",
+		images: [],
+		videos: ['<iframe src="https://player.vimeo.com/video/349908884" width="818" height="460" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>'],
+		links : [
+			{
+				link: "http://drone-inspection.tk/",
+				linkCaption: "Link to website"
+			}
+		]
+	},
+	{
+		date: "Dec ‘18",
+		category: "UI/UX, web, illustration, booking-system, svg, responsive",
+		title: "Information and booking site of creative space NEXT",
+		images: [],
+		videos: ['<iframe src="https://player.vimeo.com/video/349922626" width="818" height="460" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>'],
+		links : [
+			{
+				link: "https://next-space.com.ua/",
+				linkCaption: "Link to the www.next-space.com.ua"
+			}
+		]
+	},
+	{
 		date: "going",
 		category: "UI/UX, prototyping, app, BEM, gameDev",
 		title: "Alias for education",
@@ -65,18 +91,6 @@ var portfolioArray = [
 			{
 				link: "https://www.figma.com/file/QgpJcLyFYhpTJwQqp6emEasc/Mobile-version-of-STELLARY?node-id=0%3A1",
 				linkCaption: "Link to the Figma project"
-			}
-		]
-	},
-	{
-		date: "Dec ‘18",
-		category: "UI/UX, web, illustration, booking-system, svg, responsive",
-		title: "Information and booking site of creative space NEXT",
-		images: [],
-		links : [
-			{
-				link: "https://next-space.com.ua/",
-				linkCaption: "Link to the www.next-space.com.ua"
 			}
 		]
 	},
