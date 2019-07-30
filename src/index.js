@@ -81,7 +81,7 @@ $(document).ready(function(){
 						}
 						if(portfolioArray[i].images) {
 							for(var j=0;j<portfolioArray[i].images.length;j++){
-							newItem += `<div class="portfolio-image"><img src="/public/img/portfolio/${portfolioArray[i].images[j]}"></div>`;
+							newItem += `<div class="portfolio-image"><img src="/public/img/${portfolioArray[i].images[j]}"></div>`;
 							}
 						}
 						newItem +=`<div class="p-16 portfolio-links">`;
