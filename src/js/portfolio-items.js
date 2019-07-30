@@ -1,9 +1,22 @@
 var portfolioArray = [
 	{
+		date: "July ‘19",
+		category: "UI/UX, research, prototyping, app, illustration",
+		title: "Mobile banking app specialized in financial literacy.",
+		images: ['nextbank.jpg'],
+		videos: ['<iframe src="https://player.vimeo.com/video/350987701" width="818" height="460" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>'],
+		links : [
+			{
+				link: "https://www.figma.com/proto/czFy3yHBEtBgSlrwqGsshZVA/Keep-Solid-Internship?node-id=60%3A463&viewport=894%2C1251%2C0.36695781350135803&scaling=scale-down",
+				linkCaption: "Link to prototype"
+			}
+		]
+	},
+	{
 		date: "going",
 		category: "UI/UX, prototyping, iOs, app, dashboard",
 		title: "Mobile app for business event networking. Web app for event organizators.",
-		images: [],
+		images: ['comeet.jpg'],
 		videos: ['<iframe src="https://player.vimeo.com/video/349049760" width="818" height="460" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>'],
 		links : [
 			{

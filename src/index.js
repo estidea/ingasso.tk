@@ -74,14 +74,14 @@ $(document).ready(function(){
 					<div class="col col-11 column">
 						<div class="p-16 portfolio-category">${portfolioArray[i].category}</div>
 						<div class="p-32 portfolio-title">${portfolioArray[i].title}</div>`;
-						if(portfolioArray[i].images) {
-							for(var j=0;j<portfolioArray[i].images.length;j++){
-							newItem += `<div class="portfolio-image"><img src="/public/img/portfolio/${portfolioArray[i].images[j]}"></div>`;
-							}
-						}
 						if(portfolioArray[i].videos) {
 							for(var j=0;j<portfolioArray[i].videos.length;j++){
 								newItem += `<div class="portfolio-image">${portfolioArray[i].videos[j]}</div>`;
+							}
+						}
+						if(portfolioArray[i].images) {
+							for(var j=0;j<portfolioArray[i].images.length;j++){
+							newItem += `<div class="portfolio-image"><img src="/public/img/portfolio/${portfolioArray[i].images[j]}"></div>`;
 							}
 						}
 						newItem +=`<div class="p-16 portfolio-links">`;
