@@ -16,7 +16,7 @@ var portfolioArray = [
 		date: "going",
 		category: "UI/UX, prototyping, iOs, app, dashboard",
 		title: "Mobile app for business event networking. Web app for event organizators.",
-		images: ['comeet.png'],
+		images: ['comeet.jpg'],
 		videos: ['<iframe src="https://player.vimeo.com/video/349049760" width="818" height="460" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>'],
 		links : [
 			{
