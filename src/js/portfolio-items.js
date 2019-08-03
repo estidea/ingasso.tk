@@ -9,7 +9,11 @@ var portfolioArray = [
 			{
 				link: "https://www.figma.com/proto/czFy3yHBEtBgSlrwqGsshZVA/Keep-Solid-Internship?node-id=60%3A463&viewport=894%2C1251%2C0.36695781350135803&scaling=scale-down",
 				linkCaption: "Link to prototype"
-			}
+			},
+			{
+				link: "https://www.behance.net/gallery/83659879/NextBank-mobile-banking-app",
+				linkCaption: "Project on Behance"
+			},
 		]
 	},
 	{
